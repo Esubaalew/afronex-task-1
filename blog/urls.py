@@ -7,6 +7,7 @@ router = DefaultRouter()
 
 # Register the PostViewSet with the router
 router.register(r'posts', views.PostViewSet)
+router.register(r'users', views.UserViewSet)
 
 # Define urlpatterns for the app
 urlpatterns = [
